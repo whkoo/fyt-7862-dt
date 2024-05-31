@@ -1,0 +1,179 @@
+/dev/sttygnss0          0660     system      system
+/dev/spipe_gnss0        0660     system      system
+/dev/spipe_gnss1        0660     system      system
+
+/dev/slog_gnss          0660     system      system
+/dev/slog_wcn0          0660     system      system
+/dev/ttyS3              0660     system      system
+/dev/ttyS4              0660     system      system
+/dev/ttyS0              0660     root        system
+/dev/power_ctl          0660     system      system
+/dev/gnss_dbg           0660     system      system
+/dev/fm                 0660     media       media
+/dev/ttyM0              0660     bluetooth   net_bt_admin
+/dev/ttyM1              0660     bluetooth   net_bt_admin
+/dev/trusty-ipc-dev0    0660     system      system
+/dev/sttybt0            0660     bluetooth   net_bt_admin
+/dev/ttyBT0             0660     bluetooth   net_bt_admin
+
+/dev/trusty-ipc-dev0    0660     system      system
+/dev/stty_lte*          0660     radio       system
+/dev/slog_lte           0660     system      system
+/dev/slog_pm            0660     system      system
+/dev/sctl_pm            0660     system      system
+/dev/sdiag_lte          0660     system      system
+/dev/spipe_lte*         0660     system      system
+/dev/spipe_lte5         0660     radio      system
+/dev/spipe_lte4         0660     media       audio
+/dev/spipe_lte6         0660     media       audio
+/dev/spipe_lte14        0660     audioserver audio
+/dev/spipe_pm*          0666     system      system
+/dev/data0_gnss         0666     system       system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/l_*       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/pm_sys       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/miscdata       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/persist       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/system       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/gpsgl       0660    system      root
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/gpsbd       0660     system      root
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/gnssmodem       0660     system      root
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/l_agdsp 0600 audioserver audio
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/sysdumpdb        0660     system     system
+
+/dev/block/mmcblk1p*    0660     system      system
+/dev/AKM099XX           0660     system      system
+/dev/block/mmcblk0rpmb  0660     system      system
+
+/dev/vser               0660     system      system
+/dev/ttyGS*             0660     system      system
+
+/dev/ion                0666     system      graphics
+/dev/gsp                0660     system      graphics
+
+/dev/mali0              0666     system      graphics
+/dev/sprd_jpg           0666     system      camera
+/dev/sprd_jpg1          0660     system      camera
+/dev/sprd_vsp           0660     system      camera
+/dev/sprd_vpp           0660     system      camera
+/dev/sprd_vsp_enc       0660     system      camera
+
+/dev/sprd_image         0660     system      camera
+/dev/sprd_isp           0660     system      camera
+/dev/sprd_sensor        0660     system      camera
+/dev/video0             0660     system      camera
+/dev/sprd_cpp           0660     system      camera
+/dev/sprd_fd            0660     system      camera
+/dev/map_user           0660     system      system
+/dev/carplay_touch           0660     system      system
+
+/sys/devices/system/cpu/cpu* /cpufreq/interactive/boost 0660 media system
+/sys/devices/system/cpu/cpu* /cpufreq/interactive/boostpulse 0660 system system
+/sys/devices/system/cpu/cpu* /cpufreq/interactive/boostpulse_duration 0660 system system
+/sys/devices/system/cpu/cpu* /cpufreq/interactive/timer_rate 0660 system system
+/sys/devices/system/cpu/cpu* /cpufreq/interactive/hispeed_freq 0660 system system
+/sys/devices/system/cpu/cpu* /cpufreq/interactive/target_loads 0660 system system
+/sys/devices/system/cpu/cpu* /cpufreq/interactive/above_hispeed_delay 0660 system system
+/sys/devices/system/cpu/cpu* /cpufreq/interactive/timer_slack 0660 system system
+/sys/devices/system/cpu/cpu* /cpufreq/interactive/min_sample_time 0660 system system
+/sys/devices/system/cpu/cpu* /cpufreq/interactive/io_is_busy 0660 system system
+
+/dev/input/event*       0660     system      input
+/sys/devices/virtual/input/input*   acc_enable      0660  system   input
+/sys/devices/virtual/input/input*   acc_delay      0660  system   input
+/sys/devices/virtual/input/input*   gyro_enable      0660  system   input
+/sys/devices/virtual/input/input*   gyro_delay      0660  system   input
+/sys/devices/virtual/input/input*   enable      0660  system   input
+/sys/devices/virtual/input/input*   delay      0660  system   input
+/sys/devices/virtual/input/input*   chip_info      0660  system   input
+/dev/ltr_558als      0660  system   input
+/sys/class/xr-gsensor/device/gsensor      0660  system   input
+/sys/class/xr-gsensor/device/delay_acc      0660  system   input
+/sys/class/xr-pls/device/als      0660  system   input
+/sys/class/xr-pls/device/proximity      0660  system   input
+
+/sys/devices/system/cpu/cpu* /cpufreq/scaling_governor 0660 system system
+/sys/devices/system/cpu/cpu* /cpufreq/scaling_setspeed 0660 system system
+
+/dev/input/event*   0660     system      input
+/dev/iio:device1    0660     system      system
+/dev/map_user       0660     system      system
+/sys/devices/platform/soc/soc:aon/32100000.spi/spi_master/spi4/spi4.0/sc27xx-bltc*/leds/sc27xx:red hw_pattern 0666 system system
+/sys/devices/platform/soc/soc:aon/32100000.spi/spi_master/spi4/spi4.0/sc27xx-bltc*/leds/sc27xx:green hw_pattern 0666 system system
+/sys/devices/platform/soc/soc:aon/32100000.spi/spi_master/spi4/spi4.0/sc27xx-bltc*/leds/sc27xx:blue hw_pattern 0666 system system
+
+/sys/class/gpio_test export 0220 root system
+/sys/class/gpio_test unexport 0220 root system
+
+/dev/iio:device*    0660     system      system
+/sys/bus/iio/devices/trigger*    name    0660    system    system
+/sys/bus/iio/devices/iio:device*    /buffer/length    0660    system    system
+/sys/bus/iio/devices/iio:device*    /buffer/enable    0660    system    system
+/sys/bus/iio/devices/iio:device*    /trigger/current_trigger    0660    system    system
+
+/dev/rtc*           0660     system      system
+/dev/ttyS1              0666     system      system
+/dev/ttyS2              0660     system      system
+/dev/i2c-*              0666     system      system
+/dev/sqlradio           0666     system      system
+/dev/ch7026             0666     system      system
+/dev/rk_preisp          0660     system      camera
+/dev/block/mmcblk0p43    0666     system      system
+/dev/block/mmcblk0p12    0666     system      system
+/dev/block/mmcblk0p45    0660     system      root
+
+#common iio char devices
+/dev/iio:device* 0666 system system
+
+#common sensors files
+/sys/bus/iio/devices/iio:device* /buffer/enable 0666 system system
+/sys/bus/iio/devices/iio:device* /buffer/length 0666 system system
+/sys/bus/iio/devices/iio:device* /sampling_frequency 0666 system system
+/sys/bus/iio/devices/iio:device* /scan_elements/in_timestamp_en 0666 system system
+/sys/bus/iio/devices/iio:device* /hwfifo_flush 0666 system system
+/sys/bus/iio/devices/iio:device* /hwfifo_enabled 0666 system system
+/sys/bus/iio/devices/iio:device* /hwfifo_watermark 0666 system system
+/sys/bus/iio/devices/iio:device* /injection_mode 0666 system system
+
+#accelerometer sensor
+/sys/bus/iio/devices/iio:device* /scan_elements/in_accel_x_en 0666 system system
+/sys/bus/iio/devices/iio:device* /scan_elements/in_accel_y_en 0666 system system
+/sys/bus/iio/devices/iio:device* /scan_elements/in_accel_z_en 0666 system system
+/sys/bus/iio/devices/iio:device* /in_accel_x_scale 0666 system system
+/sys/bus/iio/devices/iio:device* /in_accel_y_scale 0666 system system
+/sys/bus/iio/devices/iio:device* /in_accel_z_scale 0666 system system
+/sys/bus/iio/devices/iio:device* /in_accel_injection_raw 0666 system system
+
+#magnetometer sensor
+/sys/bus/iio/devices/iio:device* /scan_elements/in_magn_x_en 0666 system system
+/sys/bus/iio/devices/iio:device* /scan_elements/in_magn_y_en 0666 system system
+/sys/bus/iio/devices/iio:device* /scan_elements/in_magn_z_en 0666 system system
+/sys/bus/iio/devices/iio:device* /in_magn_x_scale 0666 system system
+/sys/bus/iio/devices/iio:device* /in_magn_y_scale 0666 system system
+/sys/bus/iio/devices/iio:device* /in_magn_z_scale 0666 system system
+
+#gyroscope sensor
+/sys/bus/iio/devices/iio:device* /scan_elements/in_anglvel_x_en 0666 system system
+/sys/bus/iio/devices/iio:device* /scan_elements/in_anglvel_y_en 0666 system system
+/sys/bus/iio/devices/iio:device* /scan_elements/in_anglvel_z_en 0666 system system
+/sys/bus/iio/devices/iio:device* /in_anglvel_x_scale 0666 system system
+/sys/bus/iio/devices/iio:device* /in_anglvel_y_scale 0666 system system
+/sys/bus/iio/devices/iio:device* /in_anglvel_z_scale 0666 system system
+
+#pressure sensor
+/sys/bus/iio/devices/iio:device* /scan_elements/in_pressure_en 0666 system system
+/sys/bus/iio/devices/iio:device* /scan_elements/in_temp_en 0666 system system
+/sys/bus/iio/devices/iio:device* /in_pressure_scale 0666 system system
+
+#step counter sensor
+/sys/bus/iio/devices/iio:device* /max_delivery_rate 0666 system system
+/sys/bus/iio/devices/iio:device* /reset_counter 0666 system system
+/sys/bus/iio/devices/iio:device* /scan_elements/in_step_counter_en 0666 system system
+
+#significant motion sensor
+/sys/bus/iio/devices/iio:device* /scan_elements/in_sign_motion_en 0666 system system
+
+#step detector sensor
+/sys/bus/iio/devices/iio:device* /scan_elements/in_step_detector_en 0666 system system
+
+#tilt sensor
+/sys/bus/iio/devices/iio:device* /scan_elements/in_tilt_en 0666 system system
